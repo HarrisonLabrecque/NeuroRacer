@@ -1,23 +1,52 @@
-# 🚗 Project Overview
+# AutoPi Racer – Autonomous RC Car Project
 
-NeuroRacer is an autonomous RC car project powered by a Raspberry Pi 3 B+. The goal is to explore robotics, embedded systems, and computer vision using Python and OpenCV.
+**AutoPi Racer** is an autonomous RC car built on a **Raspberry Pi 3 B+**, designed as a hands-on learning platform for robotics and embedded systems using Python.
 
-# 🔧 Current Features
+---
 
-The prototype supports basic motor control and manual driving using a Wiimote. Line following using OpenCV is under development. Obstacle avoidance is planned for a future stage of the prototype.
+## 🔧 Key Features
 
-# 🧠 Learning Goals
+* Manual driving via Wiimote
+* Future plans: obstacle avoidance, camera-based navigation, and AI-driven control
 
-This project is designed as a learning platform for working with low-level hardware, GPIO-based motor control, and real-time image processing. It also serves as a foundation for future work in AI and machine learning.
+---
 
-# 🛠️ Hardware Components
+## 🧠 Learning Outcomes
 
-The car uses a standard RC chassis powered by four 3V–6V DC motors. Two L298N motor drivers control the motors. One battery pack powers the raspberry pi while another battery pack powers the motors, and all components are connected using male-to-female and male-to-male jumper wires.
+* Low-level hardware and GPIO-based motor control
+* Understanding hardware and software limitations through hands-on experimentation
 
-# 💻 Software & Libraries
+---
 
-The code is written in Python 3. Motor control is handled with the gpiozero library. Manual control is implemented using python3-wiimote. OpenCV will be used for image processing. Bluetooth dependencies include bison, flex, automake, and libbluetooth-dev.
+## 🛠️ Hardware
 
-# 🚀 Future Plans
+* Raspberry Pi 3 B+
+* LK Cokiono 4WD motor driver shield
+* 4 DC motors on an RC car chassis
+* 2 × HC-SR04 ultrasonic sensors
+* Breadboard and jumper wires
 
-Future versions will include obstacle detection using ultrasonic sensors, camera-based vision, and AI/ML-driven navigation. A web interface for remote control and monitoring is also planned.
+---
+
+## 💻 Software & Libraries
+
+* Python 3
+* `gpiozero` for motor control
+* `python3-wiimote` for manual control
+* Bluetooth dependencies: `bison`, `flex`, `automake`, `libbluetooth-dev`
+
+---
+
+# 🚀 Future Work
+* Full obstacle detection using ultrasonic sensors
+* Camera-based line following and AI/ML navigation
+* Web interface for remote monitoring and control
+* Upgrade to Raspberry Pi 5 with ROS 2 on a future project for more advanced autonomous features
+
+---
+
+## 📝 Notes
+
+This project was developed over the course of one year, providing hands-on experience with hardware constraints, real-time motor control, and embedded Python programming. It helped deepen understanding of sensor integration, GPIO-based robotics, and system-level debugging. Lessons learned from this prototype will inform future projects, including upgrades to Raspberry Pi 5 with ROS 2 for advanced autonomous navigation.
+
+---
